@@ -1,0 +1,5 @@
+<h1>teams#index</h1>
+
+<% @teams.each do |team| %>
+  <li><%= link_to team.name, team %></li>
+<% end %>
