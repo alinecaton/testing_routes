@@ -1,0 +1,6 @@
+<h1>team#projects</h1>
+
+<% @projects.each do |project| %>
+  <li><%= project.name %> - <%= project.team.name %></li>
+  <br>
+<% end %>
