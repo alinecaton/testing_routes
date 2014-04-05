@@ -1,0 +1,9 @@
+<h1>teams#users</h1>
+
+<h2><%= @team.name %></h2>
+
+<h4>Users</h4>
+
+<% @users.each do |user| %>
+  <li><%= user.name %></li>
+<% end %>
